@@ -1,0 +1,6 @@
+my_string=input('Введите любое слово: ')
+print(my_string)
+print('Длина строчки: ' + str(len(my_string)))
+print('Верхний регистр: ' + my_string.upper())
+print('Нижний регистр: ' + my_string.lower())
+print('Последняя буква строки: ' + my_string[-1])
